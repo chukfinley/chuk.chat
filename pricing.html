@@ -1,13 +1,105 @@
-The prices are for now
-<br>  
-- 10 EUR
-<br>
-- 20 EUR
-<br>
-- 40 EUR
-<br>
-<br>
-I take 10 prozent, so i make profit
-<br>
-Plus 19 prozent tax on top.
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Chuk</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: 300;
+            text-align: center;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .price-list {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .price-item {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        .price-value {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .info-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .info-item {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            font-weight: 600;
+            color: #3498db;
+        }
+        
+        .back-link {
+            text-align: center;
+        }
+        
+        .back-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pricing</h1>
+    <div class="subtitle">The prices are for now</div>
+    
+    <div class="price-list">
+        <div class="price-item">€10</div>
+        <div class="price-item">€20</div>
+        <div class="price-item">€40</div>
+    </div>
+    
+    <div class="info-section">
+        <div class="info-item">
+            <span class="highlight">Commission:</span> I take 10% commission, so I make profit
+        </div>
+        <div class="info-item">
+            <span class="highlight">Tax:</span> Plus 19% tax on top of all prices
+        </div>
+    </div>
+    
+    <div class="back-link">
+        <a href="./index.html">← Back to Home</a>
+    </div>
+</body>
+</html>
